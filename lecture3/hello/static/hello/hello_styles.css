@@ -2,10 +2,12 @@ h1 {
    font-family: sans-serif;
    font-size: 90px;
    background-color: blue;
+   text-align: center;
 }
 
 p {
     font-family: sans-serif;
-    font-size: 90px;
-    background-color: blue;
+    font-size: 40px;
+    background-color: red;
+    text-align: center;
  }

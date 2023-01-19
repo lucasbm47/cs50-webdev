@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'todolist/todolist_styles.css' %}">
+</head>
+<body>
+    <ul>
+        {% for curr_task in html_tasks %}
+            <li> {{ curr_task }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
